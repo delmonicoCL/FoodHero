@@ -1,0 +1,149 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Luckiest Guy", sans-serif;
+  background-color: #FECB09
+}
+
+
+
+        .btn-cerrar {
+          /* background-image: url('/assets/img/cancelar.png'); */
+          background-image: url('https://raw.githubusercontent.com/delmonicoCL/portafolio/main/assets/img/cancelar.png');
+          background-size: cover;
+          /* Ajusta el tamaño de la imagen */
+          background-repeat: no-repeat;
+          /* Evita la repetición de la imagen */
+          text-indent: -9999px;
+          /* Oculta el texto del botón */
+          width: 60px;
+          /* Ajusta el ancho de tu imagen */
+          height: 60px;
+          /* Ajusta la altura de tu imagen */
+          border: none;
+          /* Elimina el borde del botón */
+          background-color: transparent;
+          /* Establece el fondo transparente */
+        }
+
+
+.container-fluid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #dc3545
+}
+
+.contenedor-seccion {
+  width: 80%;
+  max-width: 1350px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.contenedor-imagen {
+  width: 100%;
+  max-width: 100%;
+}
+
+.contenedor-imagen img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.navbar-nav {
+  margin: 0 auto; /* Centra los elementos del navbar */
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.logo-barra {
+width: 75px;
+}
+
+.nav-link {
+font-size: 30px;
+color: azure;
+}
+
+
+.barra {
+height: 120px;
+width: 65%;
+color: white;
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+margin: 0 auto;
+/* background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/navbar.png');
+width: -webkit-fill-available; 
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;  */
+}
+
+.parrafo {
+  display: none;
+
+}
+
+
+.is-launcher__avatar{
+
+  width: 100% !important;
+  
+  height: 100% !important;
+  
+  }
+  
+  .launcher__bubble{
+  
+  width: 90px;
+  
+  height: 90px;
+  
+  }
+  
+  .LivechatLauncher{
+  
+  bottom:15px!important;
+  
+  right:10px!important
+  
+  }
+  
+  .is-launcher__avatar img{
+  
+  width: 100% !important;
+  
+  height: 100% !important;
+  
+  }
